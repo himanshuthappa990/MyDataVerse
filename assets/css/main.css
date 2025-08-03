@@ -90,9 +90,7 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
-	*, *:before, *:after {
-		box-sizing: inherit;
-	}
+	/* Removed empty ruleset for *, *:before, *:after */
 
 	body {
 		background: #1b1f22;
@@ -1346,6 +1344,7 @@ input, select, textarea {
 			padding-left:0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			flex-wrap:wrap;
 		}
 
 			#header nav ul li {
